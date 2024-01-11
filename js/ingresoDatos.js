@@ -16,6 +16,6 @@ console.log(`La suma es ${suma}`);
 //TABLA DE MULTIPLICAR
 let multi=parseInt(prompt("Ingrese el factor: "));
 for(let i=1; i<=10; i++){
-    let multiplicar=i+multi;
+    let multiplicar=i*multi;
     console.log(multiplicar);
 }
